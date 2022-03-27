@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navi{
+    background-color: #F7F8F8;
+    height: 57px;
+    display: flex;
+    width: 100%;
+   
+}
+.img1{
+    font-weight: bold;
+    font-size: 13px;
+    margin: 15px 40px ;
+    display: inline-block; 
+}
+.img2{
+    font-weight: bold;
+    font-size: 13px;
+    margin: 14px 2px ;
+     display: inline-block;
+}
+.btn1{
+    width: 290px;
+    
+}
+.cont2{
+    margin: 10px;
+    margin-left: 50px;
+  
+    
+}
+.text1{
+    margin-left: 550px;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 20px;
+    
+}
+.text2{
+    margin-left: 25px;
+    margin-bottom: 3px;
+    font-size: 25px;
+    font-weight: bold; 
+    background-image: url("./images/Untitled-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 110px;
+   text-align: center;
+
+}
+.cont3{
+    width: 100%;
+    height: 62px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.cont3 p{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.cont4{
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+
+.cont4 ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+
+        
+}
+.cont4 ul li a{
+            color: black;
+            font-size: 15px;
+            padding: 0px;
+            
+}
+.cont4 ul li a:hover{
+    color: #0c67df;
+    text-decoration:  #0b61ff;
+
+}
+/* @media only screen and (max-width : 864px){
+    .navi{
+        width: 400px;
+        height: 30px;
+    } */
+}
+                                 /* ./////////////////////header complete //////////////////. */
+.cardbox{
+    position: relative;
+}
+.cont7{
+position: absolute;
+margin-left: 500px;
+}
+.cont8{
+    display: flex;
+}
+.cont9{
+    font-weight: bold;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* -------------footer-------- */
+.footerPart2{
+    /* border-bottom: 1px solid red; */
+    background-color:#EBEEEF;
+}
+.footerStarting{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: #002F34;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+.boldHead:hover{
+    cursor: auto!important;
+}
+.footerStart .boldHead .li{
+    padding: 10px;
+}
+
+.footerStart li{
+    list-style: none;
+
+}
+.footerStart li:hover{
+    color: #002F34;
+    font-weight: 500;
+    cursor: pointer;
+}
+.footerStart2 li{
+    list-style: none;
+
+}
+.footerStart2 li:hover{
+    color: #002F34;
+    font-weight: 500;
+    cursor: pointer;
+}
+.footerStart3{
+
+}
+.footerStart3 li{
+    list-style: none;
+}
+.footerStart3 li:hover{
+    color: #002F34;
+    font-weight: 500;
+    cursor: pointer;
+}
+.footerStart4{
+    border-bottom: #F7FFF7 !important;
+
+}
+.footerStart4 li{
+    list-style: none;
+}
+.footerStart4 li:hover{
+    color: #002F34;
+    font-weight: 500;
+    cursor: pointer;
+}
+.footerStart5{
+    border-bottom: #F7FFF7 !important;
+    padding-right: 10px;
+
+}
+.footerStart5 li{
+    list-style: none;
+}
+.IconsFooter{
+    padding: 0;
+}
+.footerStart5 .IconsFooter:hover{
+    color: #002F34;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* -------footer bottom----- */
+.footerBottom{
+    background-color: #002F34;
+    color: #FFFFFC;
+}
+.footerBottom .myBottom{
+    display: flex;
+    justify-content: flex-end;
+}
+.footerBottom .myBottom p{
+    padding-top: 18px;
+    font-size: small;
+    font-weight:500 ;
+}
